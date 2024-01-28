@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR</title>
+    <style>
+      body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+   
+ 
+}
+h1{
+    text-align: center;
+}
+.container {
+    width: 800px;
+    padding: 5px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.526);
+
+}
+
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden; /* Hide any overflow content */
+}
+
+video {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+.story{
+  margin: 20px;
+}
+.story p{
+    text-align: justify;
+    
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>The Enchanted Tree and Lily's Gifts</h1>
+        <div class="video-container">
+            <video width="650" controls>
+                <source src="./videos/sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="story">
+                <p>Once upon a time, in a small village, there lived a little girl named Lily. She loved to spend her days exploring the woods and playing with her friends. One day, she stumbled upon a magical tree that granted wishes. Excitedly, she made a wish for a never-ending supply of her favorite candy. But as she reached for the candy, she noticed a group of hungry birds. Without hesitation, Lily shared her candy with them. To her surprise, the tree glowed and granted her another wish. This time, she wished for the birds to always have enough food. From that day on, Lily learned the true joy of giving and the magic of kindness.</p>
+            </div>
+    </div>
+    
+</body>
+</html>
